@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1><i class="fa fa-list"></i> Shopping List</h1>
+    </header>
+    <div id="user-interface">
+      <form action="#" id="form-1">
+        <input type="text" name="input-item" id="input-item" placeholder="Enter Item" />
+        <button type="submit" class="submit"><i class="fa-duotone fa-plus"></i> Add Item</button>
+      </form>
+      <div id="message-div"></div>
+
+      <div id="output-block">
+        <input type="text" name="filter-item" id="filter-item" placeholder="Filter Items" />
+        <ul class="list-items"></ul>
+        <button type="button" class="clearbtn">Clear All</button>
+      </div>
+    </div>
+    <ul class="parent"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
